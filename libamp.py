@@ -18,29 +18,10 @@ CA_RC5_SYS = 16
 
 # dictionary of possible commands, mapped to the code we need to send
 cmd = {
-        'aux': 4,
-        'cd': 5,
-        'tuner': 3,
-        'dvd': 1,
-        'av': 2,
-        'tapemon': 0,
-        'vol-': 17,
-        'vol+': 16,
         'volup': 17,
         'voldown': 16,
-        'mute': 13,
-        'standby': 12,
-        'bright': 18,
-        'source+': 19,
-        'source-': 20,
-        'sourcenext': 19,
-        'sourceprev': 20,
-        'clipoff': 21,
-        'clipon': 22,
-        'muteon': 50,
-        'muteoff': 51,
-        'ampon': 14,
-        'ampoff': 15
+        'ampon': 110,
+        'ampoff': 111 
         }
 
 #############
